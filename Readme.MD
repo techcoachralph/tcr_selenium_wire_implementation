@@ -17,9 +17,12 @@ https://www.youtube.com/watch?v=zzyxMoWOYXU
 
 Since them, through hours of investigation and trying different configurations through Docker and AWS EC2 Instances, I have gotten a much better understanding of Selenium-Wire.
 
+Here is the video when I went over my findings after my investigation.
+https://youtu.be/KNtkS7OhM48
+
 After cloning this project, you will need to create a config.json file and store your AWS project ARN when generating the grid URL.
 
-```commandline
+```json
 {
   "aws_project_arn": "arn provided by AWS Device Farm goes here"
 }
